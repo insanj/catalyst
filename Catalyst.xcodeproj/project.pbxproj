@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		237002581732273F00B58262 /* iphone 3gs.png in Resources */ = {isa = PBXBuildFile; fileRef = 237002571732273F00B58262 /* iphone 3gs.png */; };
-		2370025A1732274500B58262 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 237002591732274500B58262 /* Default.png */; };
-		2370025C1732274900B58262 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2370025B1732274900B58262 /* Default@2x.png */; };
-		2370025E1732274C00B58262 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2370025D1732274C00B58262 /* Default-568h@2x.png */; };
 		23923908172F08D1009550CD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23923907172F08D1009550CD /* AVFoundation.framework */; };
 		239362671731F66D00BE72CF /* about-button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 239362481731F66D00BE72CF /* about-button-pressed.png */; };
 		239362681731F66D00BE72CF /* about-button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 239362491731F66D00BE72CF /* about-button-small-pressed.png */; };
@@ -60,13 +57,13 @@
 		23B07A51172CDF0700935AC7 /* CYTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B07A4F172CDF0700935AC7 /* CYTViewController.xib */; };
 		23B07A70172CE48C00935AC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B07A6F172CE48C00935AC7 /* QuartzCore.framework */; };
 		23CA11F8172DAB3B006F33F4 /* CYTBeatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CA11F7172DAB3B006F33F4 /* CYTBeatButton.m */; };
+		B9016DC322EF92EC0010A577 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9016DC022EF92EB0010A577 /* Default-568h@2x.png */; };
+		B9016DC422EF92EC0010A577 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B9016DC122EF92EC0010A577 /* Default.png */; };
+		B9016DC522EF92EC0010A577 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9016DC222EF92EC0010A577 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		237002571732273F00B58262 /* iphone 3gs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone 3gs.png"; sourceTree = "<group>"; };
-		237002591732274500B58262 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		2370025B1732274900B58262 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
-		2370025D1732274C00B58262 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		23923907172F08D1009550CD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		239362481731F66D00BE72CF /* about-button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-button-pressed.png"; sourceTree = "<group>"; };
 		239362491731F66D00BE72CF /* about-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-button-small-pressed.png"; sourceTree = "<group>"; };
@@ -123,6 +120,9 @@
 		23CA11F6172DAB3B006F33F4 /* CYTBeatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTBeatButton.h; sourceTree = "<group>"; };
 		23CA11F7172DAB3B006F33F4 /* CYTBeatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTBeatButton.m; sourceTree = "<group>"; };
 		B9016DBF22EF8F660010A577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CYTViewController.xib; sourceTree = "<group>"; };
+		B9016DC022EF92EB0010A577 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B9016DC122EF92EC0010A577 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B9016DC222EF92EC0010A577 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,9 +144,9 @@
 		239362461731F66400BE72CF /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2370025D1732274C00B58262 /* Default-568h@2x.png */,
-				2370025B1732274900B58262 /* Default@2x.png */,
-				237002591732274500B58262 /* Default.png */,
+				B9016DC022EF92EB0010A577 /* Default-568h@2x.png */,
+				B9016DC122EF92EC0010A577 /* Default.png */,
+				B9016DC222EF92EC0010A577 /* Default@2x.png */,
 				237002571732273F00B58262 /* iphone 3gs.png */,
 				239362AD1732238600BE72CF /* iphone 4s.png */,
 				239362AE1732238600BE72CF /* iphone 5.png */,
@@ -390,9 +390,9 @@
 				239362AF1732238700BE72CF /* iphone 4s.png in Resources */,
 				239362B01732238700BE72CF /* iphone 5.png in Resources */,
 				237002581732273F00B58262 /* iphone 3gs.png in Resources */,
-				2370025A1732274500B58262 /* Default.png in Resources */,
-				2370025C1732274900B58262 /* Default@2x.png in Resources */,
-				2370025E1732274C00B58262 /* Default-568h@2x.png in Resources */,
+				B9016DC322EF92EC0010A577 /* Default-568h@2x.png in Resources */,
+				B9016DC422EF92EC0010A577 /* Default.png in Resources */,
+				B9016DC522EF92EC0010A577 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
